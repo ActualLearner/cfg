@@ -1,0 +1,10 @@
+# This is Git's per-user configuration file.
+[user]
+	name = ActualLearner
+	email = abdellahshafi7@gmail.com
+# Please adapt and uncomment the following lines:
+#	name = root
+#	email = root@LAPTOP-F8S0FH5U.localdomain
+[url "https://github.com/"]
+[init]
+	defaultBranch = main
