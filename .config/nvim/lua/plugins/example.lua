@@ -194,4 +194,23 @@ return {
       },
     },
   },
+  {
+    "NeogitOrg/neogit",
+    dependencies = {
+      "nvim-lua/plenary.nvim",
+      "sindrets/diffview.nvim",
+      "nvim-telescope/telescope.nvim",
+    },
+    config = true,
+    -- Ensure our keymap is set for Neogit
+    keys = {
+      {
+        "<leader>gg",
+        function()
+          require("neogit").open()
+        end,
+        desc = "Neogit",
+      },
+    },
+  },
 }
