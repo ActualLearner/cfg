@@ -118,5 +118,6 @@ if ! shopt -oq posix; then
 fi
 export PATH="$PATH:/mnt/c/Users/PC/AppData/Local/Programs/Microsoft VS Code/bin"
 export PATH="$HOME/.local/bin:$PATH"
+export LLDB_DEBUGSERVER_PATH=/usr/lib/llvm-19/bin/lldb-server
 
 neofetch
